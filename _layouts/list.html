@@ -22,40 +22,40 @@
 layout: base
 ---
 
-{% assign strings = site.data.strings %}
+{% assign category = site.featured_categories | where: "slug", page.slug | first %}
+{% if category %}
+  {% assign posts = site.categories[page.slug] %}
+{% else %}
+  {% assign tag = site.featured_tags | where: "slug", page.slug | first %}
+  {% if tag %}
+    {% assign posts = site.tags[page.slug] %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+{% endif %}
 
-<article class="page" role="article">
+{% if page.title.size > 0 %}
   <header>
-    <h1 class="page-title">{{ page.title | default:strings.home | default:"Home" }}</h1>
+    <h1 class="page-title">{{ page.title }}</h1>
     {% include message.html text=page.description hide=page.hide_description %}
   </header>
+  <hr class="sr-only"/>
+{% endif %}
 
-  {{ content }}
+{{ content }}
 
-  <hr class="dingbat"/>
+{% assign date_formats  = site.data.strings.date_formats               %}
+{% assign list_group_by = date_formats.list_group_by | default:"%Y"    %}
+{% assign list_entry    = date_formats.list_entry    | default:"%d %b" %}
 
-  {% if site.posts.size > 0 %}
-    <h2 class="hr">{{ strings.posts | default:"Posts" }}</h2>
+{% for post in posts %}
+  {% assign currentdate = post.date | date:list_group_by %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h2 id="{{ list_group_by | slugify }}-{{ currentdate | slugify }}" class="hr">{{ currentdate }}</h2>
     <ul class="related-posts">
-      {% for post in site.posts limit:5 %}
-        {% include post-list-item.html post=post %}
-      {% endfor %}
-    </ul>
+    {% assign date = currentdate %}
   {% endif %}
-
-  {% assign pages = site.html_pages | where:"layout","page" | where_exp:"page","page.sitemap != false" %}
-  {% if pages.size > 0 %}
-    <h2 class="hr">{{ strings.pages | default:"Pages" }}</h2>
-    <ul class="related-posts">
-      {% for page in pages limit:5 %}
-        {% if page.layout == 'page' %}
-          <li class="h4">
-            <a href="{{ page.url | relative_url }}" class="flip-title">
-              <span>{{ page.title }}</span>
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  {% endif %}
-</article>
+  {% include post-list-item.html post=post format=list_entry %}
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}
