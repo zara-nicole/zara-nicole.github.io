@@ -245,7 +245,9 @@ plugins:
 
 # Other Plugins
 # ---------------------------------------------------------------------------------------
-
+github:
+  is_project_page: false
+  
 optional_front_matter:
   remove_originals:    true
 
