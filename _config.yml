@@ -1,9 +1,10 @@
-theme: jekyll-theme-slate
-#title: Zara Saldanha
-
 # Config
 # ========================================================================================
-url:                 https://zara-nicole.github.io/
+
+# IMPORTANT: Set the URL of your site.
+# Set to https://<username>.github.io when hosting on GitHub Pages
+# (unless you are using a custom domain).
+url:                   https://domain.tld
 
 # IMPORTANT: Set The "base URL" of your site.
 #
@@ -15,58 +16,69 @@ url:                 https://zara-nicole.github.io/
 # i.e. when the name of the repository looks like <username>.github.io.
 # Otherwise, set to /<name of repository> (with leading /, but without the < >).
 baseurl:               ''
+
+# Language of your content in 2-letter code, e.g.: en, de.
+# You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
 
-title:                 Zara Saldanha
+# The title of your blog. Used in the sidebar and the browser tab.
+title:                 Hydejack
 
+# A short description (~150 chars) of the page used for the meta description tag.
+# Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A collection of data science projects and visualizations
-  by a BS student at Bucknell University.
+  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
+  Combines the best of static sites and modern web apps.
+  Open `_config.yml` to edit this text.
+
 # A shorter description for the sidebar.
 tagline:               >
-  A collection of data science projects and visualizations
-  by a BS student at Bucknell University.
-# description used in About page
-# why:               >
-#   I believe the best way to learn something new is just to try it.
-#   <br><br>
-#   This website is a record of personal projects I have undertaken,
-#   each with the goal of learning a new package, trying a new algorithm, or using a new API.
-#   Creating these posts helps motivate me to better document/comment my code, and to make my analyses repeatable.
+  A Jekyll theme with JavaScript powers.
+  Open `_config.yml` to edit this text.
+
 # A list of keywords for your blog
-keywords:              [data, science, computer, science, Bucknell, Zara, Saldanha]
+keywords:              []
 
 # Used by jekyll-seo-tag...
-#logo:                  /assets/icons/icon.png
+logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
-  name:                Zara Saldanha
-  email:               zns001@bucknell.edu
+  name:                <firstname> <lastname>
+  email:               <mail@domain.tld>
   # Used by `jekyll-seo-tag`:
-  #twitter:             P_A_McKenzie
+  # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2018. All rights reserved.
+copyright:             © 2017. All rights reserved.
+
+# Add links to the footer.
+# Typically you'll want to link to your impress, cookies or privacy policy, etc.
+# legal:
+#   - title:             Impress
+#     href:              /impress/
+#   - title:             Cookies Policy
+#     href:              /cookies-policy/
 
 # Format of the permalinks
 permalink:             pretty
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
-paginate_path:         /page-:num/
-excerpt_separator:     <!--more-->
+paginate_path:         /blog/page-:num/
+
+
 # Customizaton
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-# accent_image:          /assets/img/sidebar.jpg
-# accent_color:          '#00A48B'
+accent_image:          /assets/img/sidebar-bg.jpg
+accent_color:          '#4fb1ba'
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://qwtel.com/hydejack/docs/configuration/>
-google_fonts:          Raleway:700|Raleway:400,400i,700,700i
+google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 
 # The text font. Expects a string that is a valid CSS font-family value.
 font:                  Noto Sans, Helvetica, Arial, sans-serif
@@ -74,35 +86,12 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
-#the order of the sidebar, hopefully
-# defaults:
-#   - scope:
-#       path: about.md
-#     values:
-#       menu: true
-#       order: 1
-#   - scope:
-#       path: archive.md
-#     values:
-#       menu: true
-#       order: 2
-#   - scope:
-#       path: descriptive analytics.md
-#     values:
-#       menu: true
-#       order: 3
-#   - scope:
-#       path: predictive modeling.md
-#     values:
-#       menu: true
-#       order: 4
-
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-111146646-1
+# google_analytics:      UA-XXXXXXXX-X
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -117,7 +106,7 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related]
+  post_addons:         [about, newsletter, related, random]
 
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other]
@@ -126,10 +115,10 @@ hydejack:
   no_google_fonts:     false
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    true
+  no_mark_external:    false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
-  no_push_state:       true
+  no_push_state:       false
 
   # Set to `true` if you want to disable the drawer
   no_drawer:           false
@@ -157,22 +146,25 @@ hydejack:
   # When enabled, no user-related data will be stored until the user gives consent.
   cookies_banner:      false
 
+  # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
+  advertise:           false
+
 
 # Collections
 # ========================================================================================
 
-# collections:
-#   featured_categories:
-#     permalink:         /category/:name/
-#     output:            true
-#
-#   featured_tags:
-#     permalink:         /tag/:name/
-#     output:            true
-#
-#   projects:
-#     permalink:         /projects/:path/
-#     output:            true
+collections:
+  featured_categories:
+    permalink:         /category/:name/
+    output:            true
+
+  featured_tags:
+    permalink:         /tag/:name/
+    output:            true
+
+  projects:
+    permalink:         /projects/:path/
+    output:            true
 
 
 # File inclusion/exclusion
@@ -245,9 +237,7 @@ plugins:
 
 # Other Plugins
 # ---------------------------------------------------------------------------------------
-github:
-  is_project_page: false
-  
+
 optional_front_matter:
   remove_originals:    true
 
