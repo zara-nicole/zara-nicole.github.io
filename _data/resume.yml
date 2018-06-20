@@ -2,103 +2,120 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
+  name: "Zara Saldanha"
+  label: "Computer Science and Engineering"
   picture: "https://placehold.it/126x126"
   email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  phone: "(203) 216-9833"
+  website: "zara-nicole.github.io"
   summary: >
-    **THIS IS AN EXAMPLE RESUME**.
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
-  location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    Zara grew up in Connecticut.
+    She is pursuing her BS in Computer Science and Engineering at Bucknell University (Go Bisons!!) and will be graduating in May 2020.
+    Last year, while exploring the different fields and careers associated with her degree, she took an online data science course and
+    fell in love with cleaning, exploring, and visualizing data. 
+
+  #location:
+   # address: "2712 Broadway St"
+    #postalCode: "CA 94115"
+    #city: "San Francisco"
+    #countryCode: "US"
+    #region: "California"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    #- network: "Twitter"
+     # username: "RHendricksCEO"
+      #url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
+      username: "Zara Saldanha"
       url: ""
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "Neuberger Berman"
+    position: "Data Science Intern"
+    #website: ""
+    startDate: "2018-06-03"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Neuberger Berman is a private, independent, employee-owned investment management firm.
+      The purpose is to deliver compelling investment results for clients over the long term.
+      The firm manages equities, fixed income, private equity and hedge fund portfolios for global institutional investors, advisors and high-net-worth individuals.
     highlights:
-      - "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "Applied statistical and machine learning techniques to large data sets for data quality control, feature engineering and bias correction"
+      - "Designed schemas and applications to automate data mining and warehousing processes in a scalable way"
+      - "Analyzed large, unstructured data sets to discover fundamental health of publicly traded companies"
+  
+  - company: "Memorial Sloan-Kettering Cancer Center"
+    position: "Immunology Research Intern"
+    #website: ""
+    startDate: "2016-05-25"
+    endDate: "2016-08-15"
+    summary: >
+      Memorial Sloan Kettering Cancer Center is the world’s oldest and largest private cancer center and research institute.
+      It has devoted more than 130 years to exceptional patient care, innovative research, and outstanding educational programs. 
+    highlights:
+      - "Carried out numerous experiments, such as minipreparation of plasmid DNA and cloning bacteria"
+      - "Analyzed data using computer applications"
+      - "Attended weekly meeting to report findings and observations"
+      - "Co-authored article in scientific journal,published March 2017"
+
 volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+  - organization: "CrisisTextLine"
+    position: "Crisis Counselor"
+    website: "https://www.crisistextline.org"
+    startDate: "2018-05-29"
+    endDate: ""
+    summary: "Crisis Text Line is free, 24/7 support for those in crisis. Born from DoSomething.org in August 2013,
+    Crisis Text Line was being used in all 295 area codes in the US withing 4 months."
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Completed intensive training course"
+      - "Trained for and comfortable in high-risk scenarios including suicide active rescue protocol"
+      - "Communicates directly with clients in need of immediate crisis intervention"
+      - "Operated individually and as a team to provide crisis intervention services to individuals in need"
+      - "Developed excellent listening skills and empathetic capabilities"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "Bucknell University"
+    area: "Computer Science and Engineering / Math Minor"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+    startDate: "2015-08-23"
+    endDate: "2020-05-15"
+    #gpa: "4.0"
     courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
+      - "Software Engineering and Design"
+      - "Computer Organization and Programming"
+#awards:
+ # - title: "Digital Compression Pioneer Award"
+  #  date: "2014-11-01"
+   # awarder: "Techcrunch"
+    #summary: "There is no spoon."
 publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - name: "Cutting edge: The transcription factor Sox2 regulates AID expression in class-switched B cells"
+    publisher: "The American Association of Immunologists, Inc"
+    releaseDate: "2017-03-15"
+    website: "https://synapse.mskcc.org/synapse/works/108387"
+    summary: "In this article, we show that the transcription factor sex determining region Y-box 2 (Sox2) is expressed in activated B cells, but almost exclusively in those that have undergone CSR."
 skills:
   - name: "Web Development"
-    level: "Master"
+    #level: "Master"
     keywords:
       - "HTML"
       - "CSS"
       - "Javascript"
-  - name: "Compression"
-    level: "Master"
+  - name: "Data Science"
+    #level: "Master"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "R"
+      - "Python"
+      - "SQL"
 languages:
   - language: "English"
-    fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+    #fluency: "Native speaker"
+  - language: "Hindi"
+    #fluency: "Native speaker"
+#interests:
+ # - name: "Wildlife"
+  #  keywords:
+   #   - "Ferrets"
+    #  - "Unicorns"
+#references:
+ # - name: "Erlich Bachman"
+  #  reference: >
+   #   It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+    #  Company proved that he will be a valuable addition to any company.
