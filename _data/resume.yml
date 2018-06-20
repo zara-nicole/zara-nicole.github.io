@@ -35,7 +35,7 @@ work:
     summary: >
       Neuberger Berman is a private, independent, employee-owned investment management firm.
       The purpose is to deliver compelling investment results for clients over the long term.
-      The firm manages equities, fixed income, private equity and hedge fund portfolios for global institutional investors, advisors and high-net-worth individuals.
+
     highlights:
       - "Applied statistical and machine learning techniques to large data sets for data quality control, feature engineering and bias correction"
       - "Designed schemas and applications to automate data mining and warehousing processes in a scalable way"
@@ -47,8 +47,7 @@ work:
     startDate: "2016-05-25"
     endDate: "2016-08-15"
     summary: >
-      Memorial Sloan Kettering Cancer Center is the world’s oldest and largest private cancer center and research institute.
-      It has devoted more than 130 years to exceptional patient care, innovative research, and outstanding educational programs. 
+      Memorial Sloan Kettering Cancer Center is the world’s oldest and largest private cancer center and research institute. 
     highlights:
       - "Carried out numerous experiments, such as minipreparation of plasmid DNA and cloning bacteria"
       - "Analyzed data using computer applications"
@@ -61,8 +60,7 @@ volunteer:
     website: "https://www.crisistextline.org"
     startDate: "2018-05-29"
     endDate: ""
-    summary: "Crisis Text Line is free, 24/7 support for those in crisis. Born from DoSomething.org in August 2013,
-    Crisis Text Line was being used in all 295 area codes in the US withing 4 months."
+    summary: "Crisis Text Line is free, 24/7 support for those in crisis."
     highlights:
       - "Completed intensive training course"
       - "Trained for and comfortable in high-risk scenarios including suicide active rescue protocol"
@@ -72,7 +70,7 @@ volunteer:
 education:
   - institution: "Bucknell University"
     area: "Computer Science and Engineering / Math Minor"
-    studyType: "Bachelor"
+    studyType: "BS"
     startDate: "2015-08-23"
     endDate: "2020-05-15"
     #gpa: "4.0"
