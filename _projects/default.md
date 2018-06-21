@@ -29,6 +29,9 @@ accent_image:
   background: '#202020'
   overlay: false
 ---
+
+The percent change in facebook share for each website from 2017 to 2018 for each month.
+
 <iframe src="/assets/img/bokeh/tab_fb.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
@@ -37,6 +40,8 @@ accent_image:
     seamless="seamless"
     frameborder="0">
 </iframe>
+
+The delta of the percent change from February to March from 2017 to 2018 in facebook share for each website.
 
 <iframe src="/assets/img/bokeh/fb.html"
     sandbox="allow-same-origin allow-scripts"
