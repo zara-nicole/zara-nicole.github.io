@@ -68,9 +68,11 @@ author2:
   name:              <firtname> <lastname>
   email:             <mail@domain.tld>
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Hi! My name is Zara Saldanha and I am a BS student at Bucknell University studying Computer Science and Engineering.
+    |
+    I started my data science journey last December 2017, when I enrolled in an online course for Data Science in R. After taking the course, I decided that I wanted to try to apply my newly learnt skills in a corporate setting so I applied for summer internships that had to do with data science.
+    |
+    Currently, I am a Data Science intern at Neuberger Berman, an investment management fund in New York City.
 
     Open `_data/authors.yml` to edit this text.
   picture:           https://placehold.it/128x128
