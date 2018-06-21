@@ -22,6 +22,15 @@ accent_image:
   background: '#202020'
   overlay: false
 ---
+<iframe src="/assets/img/bokeh/tab_fb.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
 <iframe src="/assets/img/bokeh/fb.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
