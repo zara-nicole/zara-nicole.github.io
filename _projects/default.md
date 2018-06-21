@@ -2,9 +2,16 @@
 layout:       project
 date:         29 June 2018
 title:        Facebook Share
-caption:      Bokeh Visualizations
 description:  >
   Facebook data share visualizations created using Bokeh.
+image:        /assets/img/projects/fbshare.jpg
+screenshot:
+  src:        /assets/img/projects/fbshare.jpg
+  srcset:
+    1920w:    /assets/img/projects/fbshare.jpg
+    960w:     /assets/img/projects/fbshare.jpg
+    480w:     /assets/img/projects/fbshare.jpg
+caption:      Bokeh Visualizations
 image:        /assets/img/projects/fbshare.jpg
 screenshot:
   src:        /assets/img/projects/fbshare.jpg
