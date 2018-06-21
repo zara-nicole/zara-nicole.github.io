@@ -5,10 +5,4 @@
 It features a suite of JavaScript that makes the page feel like an app, without sacrificing backwards-compatibility,
 page-load speed or SEO.
 
-> Your presence on the web — A [blog], a [portfolio] and a [resume].
-
-**Hydejack** aims to be the complete package for professionals on the web.
-It features a blog suitable for both prose and technical documentation,
-a showcase for your projects, and a resume that fits with the rest of the design.
-
 
