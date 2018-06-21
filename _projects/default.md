@@ -30,7 +30,7 @@ accent_image:
   overlay: false
 ---
 
-The percent change in facebook share for each website from 2017 to 2018 for each month.
+The percent change in Facebook share for each website from 2017 to 2018 for each month.
 
 <iframe src="/assets/img/bokeh/tab_fb.html"
     sandbox="allow-same-origin allow-scripts"
@@ -41,7 +41,7 @@ The percent change in facebook share for each website from 2017 to 2018 for each
     frameborder="0">
 </iframe>
 
-The delta of the percent change from February to March from 2017 to 2018 in facebook share for each website.
+The delta of the percent change of Facebook share from February to March from 2017 to 2018.
 
 <iframe src="/assets/img/bokeh/fb.html"
     sandbox="allow-same-origin allow-scripts"
