@@ -10,8 +10,8 @@ screenshot:
   src:        /assets/img/projects/fbshare.jpg
   srcset:
     1920w:    /assets/img/projects/fbshare.jpg
-    960w:     /assets/img/projects/default@0,5x.jpg
-    480w:     /assets/img/projects/default@0,25x.jpg
+    960w:     /assets/img/projects/fbshare.jpg
+    480w:     /assets/img/projects/fbshare.jpg
 [//]: # (links:) 
 [//]: # (- title:    Demo) 
   [//]: #  (url:      https://qwtel.com/hydejack/) 
