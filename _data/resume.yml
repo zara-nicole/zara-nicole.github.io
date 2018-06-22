@@ -4,7 +4,7 @@
 basics:
   name: "Zara Saldanha"
   label: "Computer Science and Engineering"
-  picture: "https://placehold.it/126x126"
+  picture: /assets/img/headshot.png
   email: ""
   phone: "(203) 216-9833"
   website: "zara-nicole.github.io"
