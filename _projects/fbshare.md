@@ -43,7 +43,7 @@ The percent change in Facebook share for each website from 2017 to 2018 for each
 
 The delta of the percent change of Facebook share from February to March from 2017 to 2018.
 
-<iframe src="/assets/img/bokeh/fb.html"
+<iframe src="/assets/img/bokeh/delta_fb.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="500"
