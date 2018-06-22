@@ -4,21 +4,21 @@ date:         29 June 2018
 title:        Facebook Share
 description:  >
   Facebook data share visualizations created using Bokeh.
-image:        /assets/img/projects/fbshare3.jpg
+image:        /assets/img/projects/fb_share2.jpg
 screenshot:
-  src:        /assets/img/projects/fbshare3.jpg
+  src:        /assets/img/projects/fb_share2.jpg
   srcset:
-    1920w:    /assets/img/projects/fbshare3.jpg
-    960w:     /assets/img/projects/fbshare3.jpg
-    480w:     /assets/img/projects/fbshare3.jpg
+    1920w:    /assets/img/projects/fb_share2.jpg
+    960w:     /assets/img/projects/fb_share2.jpg
+    480w:     /assets/img/projects/fb_share2.jpg
 caption:      Bokeh Visualizations
-image:        /assets/img/projects/fbshare3.jpg
+image:        /assets/img/projects/fb_share2.jpg
 screenshot:
-  src:        /assets/img/projects/fbshare3.jpg
+  src:        /assets/img/projects/fb_share2.jpg
   srcset:
-    1920w:    /assets/img/projects/fbshare3.jpg
-    960w:     /assets/img/projects/fbshare3.jpg
-    480w:     /assets/img/projects/fbshare3.jpg
+    1920w:    /assets/img/projects/fb_share2.jpg
+    960w:     /assets/img/projects/fb_share2.jpg
+    480w:     /assets/img/projects/fb_share2.jpg
 [//]: # (links:) 
 [//]: # (- title:    Demo) 
 [//]: #  (url:      https://qwtel.com/hydejack/) 
