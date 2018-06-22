@@ -29,6 +29,16 @@ accent_image:
   background: '#202020'
   overlay: false
 ---
+The monthly average percentage of Facebook share.
+
+<iframe src="/assets/img/bokeh/fb_monthly_avg.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
 
 The percent change in Facebook share for each website from 2017 to 2018 for each month.
 
