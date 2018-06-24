@@ -5,9 +5,7 @@ title: Links
 
 Thanks for visiting my website! 🎉
 
-Below are links to my current projects:
-
 ## Current Projects
 
-[Traffic Share]: docs/7.5.1/install.md
+[Traffic Share]: _projects/7.5.1/fbshare.md
 
