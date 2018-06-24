@@ -35,10 +35,9 @@ work:
     endDate: ""
     summary: >
       Neuberger Berman is a private, independent, employee-owned investment management firm.
-      The purpose is to deliver compelling investment results for clients over the long term.
 
     highlights:
-      - "Applied statistical and machine learning techniques to large data sets for data quality control, feature engineering and bias correction"
+      - "Applied statistical and machine learning techniques to large data sets for data quality control, feature engineering, and bias correction"
       - "Designed schemas and applications to automate data mining and warehousing processes in a scalable way"
       - "Analyzed large, unstructured data sets to discover fundamental health of publicly traded companies"
   
@@ -48,7 +47,7 @@ work:
     startDate: "2016-05-25"
     endDate: "2016-08-15"
     summary: >
-      Memorial Sloan Kettering Cancer Center is the world’s oldest and largest private cancer center and research institute. 
+      MSK Cancer Center is the world’s oldest and largest private cancer center and research institute. 
     highlights:
       - "Carried out numerous experiments, such as minipreparation of plasmid DNA and cloning bacteria"
       - "Analyzed data using computer applications"
@@ -66,8 +65,7 @@ volunteer:
       - "Completed intensive training course"
       - "Trained for and comfortable in high-risk scenarios including suicide active rescue protocol"
       - "Communicates directly with clients in need of immediate crisis intervention"
-      - "Operated individually and as a team to provide crisis intervention services to individuals in need"
-      - "Developed excellent listening skills and empathetic capabilities"
+      
 education:
   - institution: "Bucknell University"
     area: "Computer Science and Engineering / Math Minor"
